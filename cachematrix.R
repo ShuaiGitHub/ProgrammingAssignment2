@@ -44,7 +44,7 @@ cacheSolve <- function(x, ...) {
 N <- 3
 M <- N
 set.seed(1)
-test <- matrix(rnorm(N*M,mean=0,sd=1), N, M) 
+test <- matrix(rnorm(N*M,mean=0,sd=1), N, M)
 matrix_vector <- makeCacheMatrix(test)
 cache_solve <-cacheSolve(matrix_vector)
 cache_solve <-cacheSolve(matrix_vector)
