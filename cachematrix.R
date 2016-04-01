@@ -7,7 +7,6 @@
 ## get: return the current matrix
 ## setInv: set the inverse to the variable cache
 ## getInv: get the inverse of the current cache
-
 makeCacheMatrix <- function(x = matrix()) {
     cache <- NULL
     set <-function(y){
